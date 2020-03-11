@@ -16,7 +16,7 @@ public class PanneauBretagne extends JPanel {
 	int x[] = GestionFichier.Yreturn();
     int y[] = GestionFichier.Xreturn();
     
-    g.drawPolygon(x, y, x.length);
+    g.drawPolyline(x, y, x.length);
    
     
 	}
